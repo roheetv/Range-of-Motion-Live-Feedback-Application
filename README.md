@@ -103,11 +103,6 @@ Shoulder/Head: tilt/level checks
 
 Presets are designed for practical ROM snapshots and technique feedback.
 
-# Project Structure🗂️
-DropBoxAngles.py      # App entry point (UI & run)
-mediapipe_lib.py      # Pose utilities, angle presets, drawing helpers
-docs/                 # Screenshots/GIFs for README 
-
 # Privacy🔒
 
 Runs locally on your machine.
