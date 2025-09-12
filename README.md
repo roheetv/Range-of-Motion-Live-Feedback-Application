@@ -1,11 +1,12 @@
-##Pose Angle Viewer
+
+# Pose Angle Viewer
 
 Range-of-Motion (ROM) measurement and live coaching feedback from webcam or video.
 Select common joints (knee, hip, trunk, ankle, shoulder), see clean on-screen angle arcs with degree labels, and export an annotated MP4 for analysis.
 
 Why? Quick, visual ROM checks with consistent angle readouts—ideal for squat/jump coaching, rehab, and movement education.
 
-#✨ Features
+# Features✨
 
 Real-time pose & angles from webcam or video
 
@@ -21,7 +22,7 @@ Works offline; no server required
 
 Friendly foundation for squat and jump analysis modules
 
-#🚀 Quick Start
+# Quick Start🚀
 Requirements
 
 Python 3.9+
@@ -37,13 +38,13 @@ If wxPython fails via pip, visit the wxPython downloads page and install the whe
 Run
 python DropBoxAngles.py
 
-#🖥️ Using the App
+# Using the App🖥️
 
 Open video: File → Browse Video
 
 Live camera: File → Live Camera
 
-Pick angles: Use the five dropdown slots (left sidebar)
+Pick angles: Use the five dropdown slots 
 
 Save: Click Start Save to export an annotated MP4
 
@@ -51,7 +52,7 @@ Tip: Use different colors per slot to visually separate joints.
 
 📥 Inputs / 📤 Outputs
 
-Inputs
+# Inputs
 
 Webcam (default camera)
 
@@ -67,7 +68,7 @@ Saved Output
 
 Annotated MP4 with overlays baked in
 
-#📸 Demo
+# Demo📸
 
 Create a docs/ folder and include screenshots/GIFs. Update paths below:
 
@@ -88,7 +89,7 @@ Saving dialog
 <img width="1919" height="886" alt="image" src="https://github.com/user-attachments/assets/fcd0786b-4fec-42b8-a941-351ae838303d" />
 
 
-#🧩 Angle Presets
+# Angle Presets🧩
 
 Knee: flexion/extension (L/R)
 
@@ -102,18 +103,18 @@ Shoulder/Head: tilt/level checks
 
 Presets are designed for practical ROM snapshots and technique feedback.
 
-#🗂️ Project Structure
+# Project Structure🗂️
 DropBoxAngles.py      # App entry point (UI & run)
 mediapipe_lib.py      # Pose utilities, angle presets, drawing helpers
 docs/                 # Screenshots/GIFs for README 
 
-#🔒 Privacy
+# Privacy🔒
 
 Runs locally on your machine.
 
 No frames or metrics are uploaded.
 
-#🧭 Roadmap
+# Roadmap🧭
 
 Movement templates (squat/jump)
 
@@ -127,7 +128,7 @@ Basic coaching cues (angle thresholds)
 
 Suggestions welcome—open an issue to discuss!
 
-#❓ FAQ
+# FAQ❓
 
 Does it work without internet?
 Yes. Everything runs locally.
@@ -138,6 +139,6 @@ Yes—optimized for one subject in frame.
 Can I change colors?
 Yes—each angle slot can use a different color.
 
-#🙌 Acknowledgements
+# Acknowledgements🙌
 
 Built with MediaPipe Pose, OpenCV, wxPython, and NumPy.
