@@ -1,4 +1,4 @@
-#Pose Angle Viewer
+##Pose Angle Viewer
 
 Range-of-Motion (ROM) measurement and live coaching feedback from webcam or video.
 Select common joints (knee, hip, trunk, ankle, shoulder), see clean on-screen angle arcs with degree labels, and export an annotated MP4 for analysis.
