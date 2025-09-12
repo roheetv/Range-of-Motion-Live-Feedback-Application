@@ -1,11 +1,11 @@
-Pose Angle Viewer (MediaPipe)
+#Pose Angle Viewer
 
 Range-of-Motion (ROM) measurement and live coaching feedback from webcam or video.
 Select common joints (knee, hip, trunk, ankle, shoulder), see clean on-screen angle arcs with degree labels, and export an annotated MP4 for analysis.
 
 Why? Quick, visual ROM checks with consistent angle readouts—ideal for squat/jump coaching, rehab, and movement education.
 
-✨ Features
+#✨ Features
 
 Real-time pose & angles from webcam or video
 
@@ -21,7 +21,7 @@ Works offline; no server required
 
 Friendly foundation for squat and jump analysis modules
 
-🚀 Quick Start
+#🚀 Quick Start
 Requirements
 
 Python 3.9+
@@ -37,7 +37,7 @@ If wxPython fails via pip, visit the wxPython downloads page and install the whe
 Run
 python DropBoxAngles.py
 
-🖥️ Using the App
+#🖥️ Using the App
 
 Open video: File → Browse Video
 
@@ -67,23 +67,28 @@ Saved Output
 
 Annotated MP4 with overlays baked in
 
-📸 Demo (add your images)
+#📸 Demo
 
 Create a docs/ folder and include screenshots/GIFs. Update paths below:
 
 Main UI
-![Main UI](docs/ui-main.png)
+![Main UI]
+<img width="1919" height="1005" alt="image" src="https://github.com/user-attachments/assets/add8f784-ff2d-486e-b123-60a2d2385ca8" />
 
 Angle overlay (single joint)
-![Angle Overlay](docs/angle-overlay.png)
+![Angle Overlay]
+<img width="1919" height="1000" alt="image" src="https://github.com/user-attachments/assets/f5efdce6-c836-47c1-80b7-0806f131944d" />
 
 Multiple angles (five slots)
-![Multi Angles](docs/angles-multi.png)
+![Multi Angles]
+<img width="1912" height="966" alt="image" src="https://github.com/user-attachments/assets/4fe4198c-ffa8-4b39-823b-aa0f007430f6" />
 
 Saving dialog
-![Saving](docs/save-progress.png)
+![Saving]
+<img width="1919" height="886" alt="image" src="https://github.com/user-attachments/assets/fcd0786b-4fec-42b8-a941-351ae838303d" />
 
-🧩 Angle Presets (Examples)
+
+#🧩 Angle Presets
 
 Knee: flexion/extension (L/R)
 
@@ -97,18 +102,18 @@ Shoulder/Head: tilt/level checks
 
 Presets are designed for practical ROM snapshots and technique feedback.
 
-🗂️ Project Structure
+#🗂️ Project Structure
 DropBoxAngles.py      # App entry point (UI & run)
 mediapipe_lib.py      # Pose utilities, angle presets, drawing helpers
-docs/                 # Screenshots/GIFs for README (add yours)
+docs/                 # Screenshots/GIFs for README 
 
-🔒 Privacy
+#🔒 Privacy
 
 Runs locally on your machine.
 
 No frames or metrics are uploaded.
 
-🧭 Roadmap
+#🧭 Roadmap
 
 Movement templates (squat/jump)
 
@@ -122,7 +127,7 @@ Basic coaching cues (angle thresholds)
 
 Suggestions welcome—open an issue to discuss!
 
-❓ FAQ
+#❓ FAQ
 
 Does it work without internet?
 Yes. Everything runs locally.
@@ -133,6 +138,6 @@ Yes—optimized for one subject in frame.
 Can I change colors?
 Yes—each angle slot can use a different color.
 
-🙌 Acknowledgements
+#🙌 Acknowledgements
 
 Built with MediaPipe Pose, OpenCV, wxPython, and NumPy.
